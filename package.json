@@ -1,0 +1,29 @@
+{
+  "name": "rediscache",
+  "version": "0.0.1",
+  "description": "Redis based cache for objects in key-json format.",
+  "main": "rediscache.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InsightAppDev/rediscache.git"
+  },
+  "keywords": [
+    "Redis",
+    "Cache",
+    "JSON",
+    "Object",
+    "DB"
+  ],
+  "author": "insight.appdev@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InsightAppDev/rediscache/issues"
+  },
+  "homepage": "https://github.com/InsightAppDev/rediscache#readme",
+  "dependencies": {
+    "object-hash": "^1.3.0"
+  }
+}
