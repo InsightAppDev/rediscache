@@ -1,7 +1,7 @@
 const { promisify } = require('util');
 var hash = require('object-hash');
 
-class RedisCache {
+module.exports = class RedisCache {
     constructor(Vars) {
         //this.MaxCount = Vars.MaxCount || null;
         this.KeyField = Vars.KeyField;
@@ -187,5 +187,3 @@ async function asyncForEach(array, callback) {
         await callback(array[index], index, array)
     }
 }
-
-module.exports = RedisCache;
